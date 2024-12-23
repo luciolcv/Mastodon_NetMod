@@ -1,14 +1,14 @@
-# Mastodon_NetMod 🐘 🔍
+# Mastodon_NetMod 🐘 🔍 
 
 <img src="netmod_logo.jpeg" alt="Mastodon_NetMod" width="250"/>
 
 
 **Mastodon_NetMod** is an under-development Python toolkit for working with [Mastodon](https://joinmastodon.org/) network moderation data.
-It leverages the [Official Mastodon APIs](https://docs.joinmastodon.org/) to provide an easy-to-use set of Python methods for getting Mastodon network moderation events.
+It leverages the [Official Mastodon APIs](https://docs.joinmastodon.org/) to provide easy-to-use access to publicly available Mastodon network moderation events.
 
-Mastodon_NetMod only relies on the *publicly accessible* endpoints from Mastodon and does not require any authentication to access public data.
+**Mastodon_NetMod** only relies on the *publicly accessible* endpoints from Mastodon and does not require any authentication to access public data.
 
-Mastodon_NetMod is a work-in-progress toolkit, that currently supports the following operations:
+**Mastodon_NetMod** is a work-in-progress toolkit, that currently supports the following operations:
 - [x]   Fetching of currently online Mastodon instances from the instances.social platform
 - [X]   Collection of network moderation events (i.e., blocks) among Mastodon instances
 - [x]   Export into DBs of the collected events
@@ -16,9 +16,9 @@ Mastodon_NetMod is a work-in-progress toolkit, that currently supports the follo
 ---
 
 ### How to use?
-- Obtain a token from the [instances.social] platform for accessing the list of tracked instances
-- Update the config.json file according to your information
-- Run and enjoy!
+- Obtain a token from the [instances.social](https://instances.social/api/token) platform to access the list of tracked instances
+- Update the *config.json* file according to your information
+- Run and enjoy! :)
 ---
 
 If you find this repo useful, please cite our work:
