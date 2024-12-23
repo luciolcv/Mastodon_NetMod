@@ -1,0 +1,21 @@
+{
+    "api_key": "PLACE_YOUR_API_KEY_HERE",
+    "api_url": "https://instances.social/api/1.0/instances/list",
+    "api_params": {
+        "count": 0,
+        "include_dead": "false",
+        "include_down": "false",
+        "include_closed": "true",
+        "min_active_users": 2,
+        "min_version": "4.0.0"
+    },
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    },
+    "mongodb": {
+        "host": "localhost",
+        "port": 27017,
+        "db_name": "mastodon_netmod",
+        "collection_name": "blocklists"
+    }
+} 
